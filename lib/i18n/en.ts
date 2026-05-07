@@ -1,0 +1,22 @@
+export const en = {
+  step1Title: "Leave a few words from today",
+  step1Placeholder: "Even a single line is enough.",
+  introTitle: "A quiet place for today's words",
+  introItems: [
+    "Leave what stayed with you today",
+    "Let the words settle a little",
+    "Come back to them later",
+  ],
+  introSub: "You can leave it here even if it is not fully formed yet.",
+  soraLabel: "Sora",
+  loading: "Sora is quietly arranging the words",
+  saveCompleteTitle: "Today's words have been kept here",
+  saveCompleteText: "Even unfinished words can stay here as they are.",
+  viewMap: "Open your map",
+  talkAgain: "Leave another one",
+  mapTitle: "Your map",
+  feedback: "Feedback",
+  listen: "Listen",
+  playing: "Playing",
+  stop: "Stop",
+} as const;

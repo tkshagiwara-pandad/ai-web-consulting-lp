@@ -1,0 +1,22 @@
+export const ja = {
+  step1Title: "今日の言葉を少し残す",
+  step1Placeholder: "ひとことだけでも残せます",
+  introTitle: "今日の言葉を置いておく場所",
+  introItems: [
+    "今日、心に残ったことを少し書く",
+    "言葉になりきらなくても置いておく",
+    "あとから静かにたどる",
+  ],
+  introSub: "まとまりきっていなくても、このまま残しておけます。",
+  soraLabel: "ソラ",
+  loading: "ソラが言葉を整えています",
+  saveCompleteTitle: "今日の言葉を残しました",
+  saveCompleteText: "言葉になりきらないままでも、ここに置いておけます。",
+  viewMap: "心の地図を見る",
+  talkAgain: "もうひとつ残す",
+  mapTitle: "心の地図",
+  feedback: "フィードバック",
+  listen: "声で聞く",
+  playing: "再生中",
+  stop: "停止",
+} as const;
