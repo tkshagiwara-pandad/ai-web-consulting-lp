@@ -5,7 +5,7 @@ const contactHref = "https://forms.gle/VpCy2KrsdEUdwrj16";
 export const metadata: Metadata = {
   title: "地域中小企業のためのAI・Web活用相談室",
   description:
-    "古いHP・止まったSNS・伝わらない文章を、AIで今の商売に合う形へ整えます。地域中小企業向け AI・Web活用アドバイザー 萩原 崇。",
+    "古いホームページ、止まったSNS、伝わらない文章を、AIで今の商売に合う形へ整えます。地域中小企業向け AI・Web活用アドバイザー 萩原 崇。",
 };
 
 const concerns = [
@@ -65,8 +65,10 @@ export default function Home() {
               地域中小企業のためのAI・Web活用相談室
             </p>
             <h1 className="mt-6 text-4xl font-semibold leading-[1.25] tracking-normal text-slate-950 sm:text-5xl lg:text-6xl">
-              古いHP・止まったSNS・伝わらない文章を、
-              <span className="block text-teal-800">AIで“今の商売に合う形”へ整えます。</span>
+              <span className="block">古いホームページ</span>
+              <span className="block">止まったSNS</span>
+              <span className="block">伝わらない文章</span>
+              <span className="block text-teal-800">AIで“今の商売に合う形”へ整えます</span>
             </h1>
             <p className="mt-6 max-w-2xl text-base leading-8 text-slate-700 sm:text-lg">
               地域中小企業、個人事業主の方へ。
