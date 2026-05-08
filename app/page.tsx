@@ -12,7 +12,7 @@ const concerns = [
   "ホームページの文章が古いままになっている",
   "SNSを始めたものの、何を書けばよいか分からない",
   "商品やサービスの良さがうまく伝わっていない気がする",
-  "Googleマップや検索で見つけてもらう準備が弱い",
+  "Googleマップ／Googleビジネスプロフィールで見つけてもらう準備が弱い",
   "ChatGPTを使ってみたいが、仕事での使いどころが分からない",
   "広告や求人、チラシの文章を整えたい",
 ];
@@ -21,7 +21,7 @@ const services = [
   "AI・Web活用かんたん診断",
   "ホームページ文章改善",
   "SNS投稿案作成",
-  "Googleビジネスプロフィール改善",
+  "Googleマップまわり改善",
   "求人文、チラシ、メール文面の改善",
   "ChatGPT活用セミナー",
   "月額伴走相談",
@@ -37,13 +37,13 @@ const seminarExamples = [
     text: "専門用語を減らし、初めて見る人にもサービスの価値が伝わる構成を学びます。",
   },
   {
-    title: "SNS・Googleマップの見直し講座",
+    title: "SNS・Googleマップまわりの見直し講座",
     text: "無理に投稿量を増やす前に、地域のお客様に見つけてもらう基本を整えます。",
   },
 ];
 
 const diagnosisItems = [
-  "今のHP・SNS・Googleマップの状態を確認",
+  "今のHP・SNS・Googleマップまわりの状態を確認",
   "優先して直すべき文章や導線を整理",
   "AIで短時間に改善できる作業を提案",
 ];
@@ -155,7 +155,7 @@ export default function Home() {
       <Section id="diagnosis" label="DIAGNOSIS" title="AI・Web活用かんたん診断">
         <div className="rounded-lg border border-teal-100 bg-teal-50 p-6 sm:p-8">
           <p className="max-w-3xl text-base leading-8 text-slate-700">
-            まずは、ホームページ、SNS、Googleビジネスプロフィール、チラシや求人文などを確認し、
+            まずは、ホームページ、SNS、Googleマップまわり、チラシや求人文などを確認し、
             「どこを直すと伝わりやすくなるか」「AIで何を効率化できるか」をやさしく整理します。
           </p>
           <div className="mt-6 grid gap-3 md:grid-cols-3">
