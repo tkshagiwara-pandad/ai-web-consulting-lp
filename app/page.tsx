@@ -69,7 +69,7 @@ export default function Home() {
               <span className="block text-teal-800">AIで“今の商売に合う形”へ整えます。</span>
             </h1>
             <p className="mt-6 max-w-2xl text-base leading-8 text-slate-700 sm:text-lg">
-              東京商工会議所 練馬支部、ネリサポ、地域中小企業、個人事業主の方へ。
+              地域中小企業、個人事業主の方へ。
               難しい言葉を増やすのではなく、今ある商売の魅力がきちんと伝わるように、AIとWebの使い方を一緒に整理します。
             </p>
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
