@@ -171,6 +171,11 @@ export default function Home() {
       <Section id="profile" label="PROFILE" title="講師プロフィール">
         <div className="grid gap-8 rounded-lg border border-slate-100 bg-white p-6 shadow-sm lg:grid-cols-[1fr_2fr] lg:p-8">
           <div>
+            <img
+              src="/profile-takashi.png"
+              alt="萩原 崇のプロフィール写真"
+              className="mb-6 aspect-square w-full max-w-[260px] rounded-lg object-cover shadow-sm"
+            />
             <p className="text-sm font-semibold text-teal-700">地域中小企業向け AI・Web活用アドバイザー</p>
             <h2 className="mt-3 text-3xl font-semibold text-slate-950">萩原 崇</h2>
             <div className="mt-5 space-y-2 text-sm text-slate-600">
