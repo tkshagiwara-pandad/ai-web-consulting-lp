@@ -221,22 +221,19 @@ export default function Home() {
               相談内容がまだまとまっていなくても大丈夫です。分かる範囲で入力してください。
             </p>
           </div>
-          <div className="mt-7 flex flex-col gap-3 sm:flex-row">
+          <div className="mt-7">
             <a
               href={contactHref}
               target="_blank"
               rel="noreferrer"
-              className="inline-flex min-h-12 items-center justify-center rounded-md bg-white px-6 py-3 text-sm font-semibold text-slate-950 transition hover:bg-teal-50"
+              className="group inline-flex w-full min-h-16 items-center justify-center rounded-md bg-teal-400 px-6 py-4 text-center text-base font-semibold text-slate-950 shadow-[0_16px_36px_rgba(45,212,191,0.26)] transition hover:bg-teal-300 sm:w-auto sm:min-w-[420px]"
             >
-              Googleフォームで相談する
-            </a>
-            <a
-              href={contactHref}
-              target="_blank"
-              rel="noreferrer"
-              className="inline-flex min-h-12 items-center justify-center rounded-md border border-white/30 px-6 py-3 text-sm font-semibold text-white transition hover:bg-white/10"
-            >
-              セミナーについて相談する
+              <span>
+                相談フォームを開く
+                <span className="block pt-1 text-xs font-medium text-slate-800">
+                  個別相談・セミナー相談はこちら
+                </span>
+              </span>
             </a>
           </div>
           <p className="mt-5 text-sm text-slate-300">
