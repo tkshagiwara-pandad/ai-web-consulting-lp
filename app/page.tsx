@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 
-const contactHref =
-  "mailto:takashi@takashihagiwara.com?subject=%E3%80%90AI%E3%83%BBWeb%E7%9B%B8%E8%AB%87%E3%80%91%E7%9B%B8%E8%AB%87%E5%B8%8C%E6%9C%9B&body=%E8%90%A9%E5%8E%9F%E3%81%95%E3%82%93%E3%81%B8%0D%0A%0D%0AAI%E3%83%BBWeb%E6%B4%BB%E7%94%A8%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E7%9B%B8%E8%AB%87%E3%81%97%E3%81%9F%E3%81%84%E3%81%A7%E3%81%99%E3%80%82%0D%0A%0D%0A%E3%80%90%E3%81%94%E7%9B%B8%E8%AB%87%E5%86%85%E5%AE%B9%E3%80%91%0D%0A%0D%0A";
+const contactHref = "https://forms.gle/VpCy2KrsdEUdwrj16";
 
 export const metadata: Metadata = {
   title: "地域中小企業のためのAI・Web活用相談室",
@@ -50,7 +49,7 @@ const diagnosisItems = [
 ];
 
 const flow = [
-  "メールでご相談内容を共有",
+  "相談フォームから内容を送信",
   "現状のHP・SNS・資料を確認",
   "改善方針と進め方をご提案",
   "セミナー、単発相談、伴走支援を実施",
@@ -76,12 +75,16 @@ export default function Home() {
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
               <a
                 href={contactHref}
+                target="_blank"
+                rel="noreferrer"
                 className="inline-flex min-h-12 items-center justify-center rounded-md bg-teal-700 px-6 py-3 text-sm font-semibold text-white shadow-sm transition hover:bg-teal-800"
               >
                 相談してみる
               </a>
               <a
                 href={contactHref}
+                target="_blank"
+                rel="noreferrer"
                 className="inline-flex min-h-12 items-center justify-center rounded-md border border-teal-200 bg-white px-6 py-3 text-sm font-semibold text-teal-800 transition hover:border-teal-400 hover:bg-teal-50"
               >
                 セミナーについて相談する
@@ -205,25 +208,40 @@ export default function Home() {
       <section id="contact" className="px-5 py-16 sm:px-8 lg:px-10">
         <div className="mx-auto max-w-5xl rounded-lg bg-slate-950 p-7 text-white sm:p-10">
           <p className="text-sm font-semibold tracking-[0.14em] text-teal-200">CONTACT</p>
-          <h2 className="mt-4 text-3xl font-semibold leading-tight sm:text-4xl">まずは小さな相談から始められます。</h2>
+          <h2 className="mt-4 text-3xl font-semibold leading-tight sm:text-4xl">
+            ご相談は、こちらのフォームから送れます。
+          </h2>
           <p className="mt-4 max-w-3xl text-sm leading-7 text-slate-200 sm:text-base">
-            セミナー企画、個別相談、ホームページやSNS文章の見直しなど、現在の状況に合わせてご相談ください。
+            セミナー企画、個別相談、ホームページやSNS文章の見直しなど、現在の状況をフォームに入力してください。
+            内容を確認したうえで、進め方をご連絡します。
           </p>
+          <div className="mt-6 rounded-md border border-teal-200/25 bg-white/8 p-4">
+            <p className="text-sm font-semibold text-teal-100">ここから相談できます</p>
+            <p className="mt-2 text-sm leading-7 text-slate-200">
+              相談内容がまだまとまっていなくても大丈夫です。分かる範囲で入力してください。
+            </p>
+          </div>
           <div className="mt-7 flex flex-col gap-3 sm:flex-row">
             <a
               href={contactHref}
+              target="_blank"
+              rel="noreferrer"
               className="inline-flex min-h-12 items-center justify-center rounded-md bg-white px-6 py-3 text-sm font-semibold text-slate-950 transition hover:bg-teal-50"
             >
-              相談してみる
+              Googleフォームで相談する
             </a>
             <a
               href={contactHref}
+              target="_blank"
+              rel="noreferrer"
               className="inline-flex min-h-12 items-center justify-center rounded-md border border-white/30 px-6 py-3 text-sm font-semibold text-white transition hover:bg-white/10"
             >
               セミナーについて相談する
             </a>
           </div>
-          <p className="mt-5 text-sm text-slate-300">takashi@takashihagiwara.com</p>
+          <p className="mt-5 text-sm text-slate-300">
+            フォームが開きます: forms.gle/VpCy2KrsdEUdwrj16
+          </p>
         </div>
       </section>
     </main>
