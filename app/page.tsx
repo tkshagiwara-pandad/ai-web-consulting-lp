@@ -180,26 +180,48 @@ export default function Home() {
             />
             <p className="text-sm font-semibold text-teal-700">地域中小企業向け AI・Web活用アドバイザー</p>
             <h2 className="mt-3 text-3xl font-semibold text-slate-950">萩原 崇</h2>
-            <div className="mt-5 space-y-2 text-sm text-slate-600">
-              <p>Google Cloud Certified Generative AI Leader</p>
-              <p>Google Data Analytics 修了</p>
-            </div>
           </div>
-          <div className="space-y-4 text-sm leading-8 text-slate-700 sm:text-base">
-            <p>
-              広告・マーケティング領域で、商品・サービスの訴求設計、Web集客、広告運用、改善提案などに携わる。
-            </p>
-            <p>
-              月間広告費約1,000万円規模の運用経験や、D2C商品の売上改善支援など、
-              事業者の「伝わる言葉」と「売れる導線」を整える実務を経験。
-            </p>
-            <p>
-              現在は、生成AI、データ分析、BI領域にも専門を広げ、ChatGPTなどのAIを活用した情報発信、
-              商品設計、業務改善の支援を行っている。
-            </p>
-            <p>
-              専門用語をできるだけ使わず、地域事業者の方が自社で使える形に落とし込むことを大切にしています。
-            </p>
+          <div className="space-y-5 text-sm leading-7 text-slate-700 sm:text-base sm:leading-8">
+            <div>
+              <h3 className="text-sm font-semibold text-teal-700">学歴</h3>
+              <p className="mt-2">
+                早稲田大学第一文学部卒業。学習院大学大学院 人文科学研究科 身体表象文化学専攻
+                博士後期課程単位取得退学。
+              </p>
+            </div>
+            <div>
+              <h3 className="text-sm font-semibold text-teal-700">実務経験</h3>
+              <div className="mt-2 space-y-3">
+                <p>
+                  広告・マーケティング領域で、Web集客、広告運用、商品・サービスの訴求設計、
+                  改善提案などに携わる。
+                </p>
+                <p>
+                  月間広告費約1,000万円規模の運用経験や、D2C商品の売上改善支援など、
+                  事業者の「伝わる言葉」と「売れる導線」を整える実務を経験。
+                </p>
+                <p>
+                  現在は、生成AI・データ分析・BI領域にも専門を広げ、AIを活用した情報発信、
+                  商品設計、業務改善の支援を行っている。
+                </p>
+              </div>
+            </div>
+            <div>
+              <h3 className="text-sm font-semibold text-teal-700">保有・修了資格等</h3>
+              <ul className="mt-2 space-y-1.5 text-sm leading-7 text-slate-600 sm:text-base sm:leading-8">
+                <li>Google Cloud Certified Generative AI Leader</li>
+                <li>Google Data Analytics Professional Certificate 修了</li>
+                <li>Google AI Essentials 修了</li>
+                <li>Google Prompting Essentials 修了</li>
+              </ul>
+            </div>
+            <div>
+              <h3 className="text-sm font-semibold text-teal-700">大切にしていること</h3>
+              <p className="mt-2">
+                専門用語をできるだけ使わず、地域事業者の方が自社の仕事に置き換えて使える形で、
+                AIとWeb活用をお伝えすることを大切にしています。
+              </p>
+            </div>
           </div>
         </div>
       </Section>
