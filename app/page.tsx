@@ -213,6 +213,13 @@ export default function Home() {
                 <li>Google Data Analytics Professional Certificate 修了</li>
                 <li>Google AI Essentials 修了</li>
                 <li>Google Prompting Essentials 修了</li>
+                <li>
+                  <span className="font-semibold text-slate-700">Anthropic Academy 修了</span>
+                  <span className="mt-1 block text-sm leading-7 text-slate-600">
+                    AI Fluency、Claude Code、Model Context Protocol、API Development など、
+                    Claudeを活用した業務改善・AI活用設計に関する公式学習プログラムを修了。
+                  </span>
+                </li>
               </ul>
             </div>
             <div>
